@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Covid Centre</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Diwanshu Dudeja</string>
+    <string name="nav_header_subtitle">diwanshu.dudeja@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_stories">True Stories</string>
+    <string name="menu_forum">Discussion forum</string>
+    <string name="menu_need_plasma">Plasma Donors</string>
+    <string name="menu_donate">Donate Plasma</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="menu_fund">Fund Raiser</string>
+    <string name="menu_logout">Logout</string>
+    <string name="text_donor_check">Are you or your relative a covid negative and willing to donate plasma ?</string>
+
+</resources>

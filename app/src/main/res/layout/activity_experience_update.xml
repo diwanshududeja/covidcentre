@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3"
+    >
+
+
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Story Edit"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:background="@color/colorPrimary"/>
+
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story Title*"
+        android:layout_below="@+id/txtHeader"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle"
+        android:layout_marginTop="@dimen/margin5"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:background="@android:color/white"
+        android:hint="Enter your query title*"
+        android:padding="@dimen/margin10"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTitle"
+        android:layout_marginTop="@dimen/margin10"
+        android:text="Story Content*"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textContent"
+        android:layout_marginTop="@dimen/margin5"
+        android:background="@android:color/white"
+        android:hint="Enter the content here.."
+        android:padding="@dimen/margin10"
+        android:gravity="top"
+        android:lines="6"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textDiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editContent"
+        android:layout_marginTop="@dimen/margin10"
+        android:text="Diet Precautions"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editDiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDiet"
+        android:layout_marginTop="@dimen/margin5"
+        android:background="@android:color/white"
+        android:padding="@dimen/margin10"
+        android:gravity="top"
+        android:lines="1"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textImmunity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDiet"
+        android:layout_marginTop="@dimen/margin10"
+        android:text="How you build up your immunity ?"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editImmunity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textImmunity"
+        android:layout_marginTop="@dimen/margin5"
+        android:background="@android:color/white"
+        android:padding="@dimen/margin10"
+        android:gravity="top"
+        android:lines="1"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/textDrugs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editImmunity"
+        android:layout_marginTop="@dimen/margin10"
+        android:text="Any specific drugs you had taken ?"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editDrugs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDrugs"
+        android:layout_marginTop="@dimen/margin5"
+        android:background="@android:color/white"
+        android:padding="@dimen/margin10"
+        android:gravity="top"
+        android:lines="1"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:textColor="@android:color/black" />
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnAskTopic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_border"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_marginRight="@dimen/margin15"
+        android:layout_marginTop="@dimen/margi20"
+        android:layout_marginBottom="@dimen/margin15"
+        android:layout_alignParentBottom="true"
+        android:text="Submit" />
+
+
+
+</RelativeLayout>
